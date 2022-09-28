@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>megasena</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+		body{
+			background-image: url(img/istockphoto-1063897612-170667a.jpg);
+		}
+	</style>
+    <script>  
+    function sortear(){
+       var resultado = mega();
+       document.getElementById("span").innerHTML = resultado;
+    }
+    </script>
+</head>
+<center>
+    <nav class="PitBull">
+		
+		<ul>
+			<li><span style="color: #07ce0767"></span></li>
+			<li><img src="img/s.png" height="60px" width="80"></li>
+			<li><a href="cadastrarProduto.html" style="color: white;"></a></li>
+			
+		</ul>
+		
+	</nav>
+	
+<body>
+    <br>
+    <form action="" method="post" class="PitForm">
+        <h1>Mega-Sorteio</h1> <br>
+        
+        <li><img src="img/dinheiro-icon.png" height="60px" width="80"></li>
+        
+        <span id="span"></span>
+        
+     <script src="../dist/megasena.js"></script>
+</form>
+</main>  
+<button style="background-color:green; color: aliceblue;" onclick="sortear()">sortear</button>
+     
+    </center>
+</body>
+</html>
